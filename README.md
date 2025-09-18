@@ -1,25 +1,53 @@
-ต้องโหลด python เวอร์ชัน 3.11.0 ในเว็ป
-https://www.python.org/downloads/release/python-3110/และทำการติดตั้ง
+Download Python version 3.11.0 from:
+https://www.python.org/downloads/release/python-3110/
 
-ทำการแตกไฟล์Final_ProJect_AI FaceDetection และทำการโหลดดาต้าเซตจาก https://www.kaggle.com/datasets/hearfool/vggface2 ทำการแตกไฟล์ และนำดาต้าเซตมาใส่ ในโฟล์เดอร์ Final_ProJect_AI 
-FaceDetection และทำการเปลี่ยนชื่อดาต้าเซตเป็นdataset เปิดVs code 
+and install it.
 
-กด Ctrl+Shift+P → พิมพ์ "Python: Select Interpreter"
-ทำการเลือก 3.11.0
+Download the dataset from:
+https://www.kaggle.com/datasets/hearfool/vggface2
+,
+extract the files, and place the dataset into the folder:
+Final_ProJect_AI\FaceDetection
 
-ทำการเลือก Terminal และกด New Terminal หรือกด Ctrl + Shift + ~
+Rename the dataset folder to dataset.
 
-ทำการสร้าง Virtual Environment โดยพิมท์ python -m venv venv ใน Terminal
-ทำการ Activate Virtual Environment โดยพิมท์ .\venv\Scripts\activate ใน Terminal
+Open VS Code.
 
-ติดตั้งแพ็กเกจทั้งหมดจาก requirements.txt
+Press Ctrl+Shift+P → type "Python: Select Interpreter"
+
+Select Python 3.11.0
+
+Open a terminal by selecting Terminal → New Terminal or pressing Ctrl+Shift+~
+
+Create a virtual environment:
+
+python -m venv venv
+
+
+Activate the virtual environment:
+
+.\venv\Scripts\activate
+
+
+Install all required packages from requirements.txt:
+
 pip install -r requirements.txt
 
-ถ้าคุณเจอปัญหา Execution Policy Error ตอน activate venv ให้รัน
+
+If you encounter an Execution Policy Error while activating venv, run:
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-และทำการ python -m venv venv หากVenvยังไม่ถูกสร้าง และ .\venv\Scripts\activate อีกครั้ง 
 
-ทำการติดตั้งแพ็กเกจทั้งหมดจาก requirements.txt โดยการ pip install -r requirements.txt
+Then create the virtual environment again if it hasn’t been created yet:
 
-จากนั้นสามารถรันโปรแกรมได้ตามปกติ
+python -m venv venv
+.\venv\Scripts\activate
+
+
+Reinstall the dependencies:
+
+pip install -r requirements.txt
+
+
+After that, you can run the program normally.
