@@ -48,9 +48,12 @@ Performance (F1 / Precision / Accuracy) by Augmentation Type
 <img width="1200" height="600" alt="augmentation_bar_chart" src="https://github.com/user-attachments/assets/f672828b-406b-428b-8273-0c566ac1e9da" />
 
 Confusion Matrix
+
 <img width="600" height="500" alt="confusion_matrix" src="https://github.com/user-attachments/assets/8783cdee-5843-44a3-afed-258f0e55d291" />
 
 ROC Curve
+
 <img width="640" height="480" alt="roc_curve" src="https://github.com/user-attachments/assets/bdc28d68-a574-486b-a162-d8e0cd741f1d" />
+
 
 
