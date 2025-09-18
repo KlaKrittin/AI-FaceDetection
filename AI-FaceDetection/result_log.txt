@@ -1,0 +1,5 @@
+AUC: 0.8404
+F1 Score: 0.8190
+Precision: 0.7818
+Accuracy: 0.8100
+Best Threshold: 0.5238
