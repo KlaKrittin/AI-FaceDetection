@@ -1,7 +1,7 @@
 1. Install Python
 
-  Download and install Python 3.11.0 from:
-  👉 Python 3.11.0 Download
+          Download and install Python 3.11.0 from:
+          👉 Python 3.11.0 Download
 
 2. Download Dataset
 
@@ -46,4 +46,5 @@ Reinstall dependencies:
 7. Run the Program
 
   Now you can run the program normally 🎉
+
 
